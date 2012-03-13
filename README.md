@@ -61,6 +61,7 @@ Search on solr :
     $response->response['docs'] <-- This is results
 
 Commit Optimize
+
     $KoSolr_Server_Instance->commit();
     $KoSolr_Server_Instance->optimize();    
 
