@@ -1,6 +1,13 @@
 PHP Apache Solr Adapter
 =======================
+
+Faster way search with solr 
+in advance way.
+
+
 You also invited to my [Wiki][wik]
+
+
 Installation
 -----------
 
