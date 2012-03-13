@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos  -->
+			<title>Docs For Class KoSolr_Server_Request_Search</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+						<script src="../media/lib/classTree.js"></script>
+												<script language="javascript" type="text/javascript">
+				var imgPlus = new Image();
+				var imgMinus = new Image();
+				imgPlus.src = "../media/images/plus.png";
+				imgMinus.src = "../media/images/minus.png";
+				
+				function showNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgMinus.src;
+					oTable.style.display = "block";
+				}
+				
+				function hideNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgPlus.src;
+					oTable.style.display = "none";
+				}
+				
+				function nodeIsVisible(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+									break;
+							}
+					return (oTable && oTable.style.display == "block");
+				}
+				
+				function toggleNodeVisibility(Node){
+					if (nodeIsVisible(Node)){
+						hideNode(Node);
+					}else{
+						showNode(Node);
+					}
+				}
+			</script>
+					</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name"><img src="../media/images/Class_logo.png"
+														alt=" Class"
+														title=" Class"
+														style="vertical-align: middle"> KoSolr_Server_Request_Search</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+							<a href="#sec-descendents">Descendents</a>
+			|											<a href="#sec-vars">Vars</a>
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+											<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+						
+			</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">B.S.D.</p>
+<p class="description"><p>Created by Yehuda-Daniel Korotkin  Date: Mar 6, 2012  Time: 6:08:31 PM</p></p>
+		<p class="notes">
+			Located in <a class="field" href="_root_folder---classes---kosolr---server---request---search.php.html">/root_folder/classes/kosolr/server/request/search.php</a> (line <span class="field">11</span>)
+		</p>
+		
+				
+		<pre><a href="../default/KoSolr_Server_Request.html">KoSolr_Server_Request</a>
+   |
+   --KoSolr_Server_Request_Search</pre>
+	
+			</div>
+</div>
+
+	<a name="sec-descendents"></a>
+	<div class="info-box">
+		<div class="info-box-title">Direct descendents</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+			<span class="disabled">Descendents</span>
+			|												<a href="#sec-vars">Vars</a>
+								|															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+															<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<table cellpadding="2" cellspacing="0" class="class-table">
+				<tr>
+					<th class="class-table-header">Class</th>
+					<th class="class-table-header">Description</th>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em; white-space: nowrap">
+						<img src="../media/images/Class.png"
+								 alt=" class"
+								 title=" class"
+								 style="vertical-align: center"/>
+						<a href="../default/KoSolr_Query.html">KoSolr_Query</a>
+					</td>
+					<td>
+											B.S.D.
+										</td>
+				</tr>
+							</table>
+		</div>
+	</div>
+
+	<a name="sec-const-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constant Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendants</a> |
+						<span class="disabled">Constants</span> (<a href="#sec-consts">details</a>)
+												<a href="#sec-vars">Vars</a>
+				 
+				|
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<div class="const-summary">
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#DEFAULT_LOCATION_DISTANCE" title="details" class="const-name">DEFAULT_LOCATION_DISTANCE</a> = 					<span class="var-type"> 160</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#DEFAULT_LOCATION_FIELD" title="details" class="const-name">DEFAULT_LOCATION_FIELD</a> = 					<span class="var-type"> 'location'</span>
+
+				</div>
+							</div>
+		</div>
+	</div>
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendants</a> |
+															<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+															<a href="#sec-vars">Vars</a>
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																																																																																																															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">\KoSolr_Server_Request_Search</span>
+										<a href="#addFacetField" title="details" class="method-name">addFacetField</a>
+											(<span class="var-type">type</span>&nbsp;<span class="var-name">$field</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">\KoSolr_Server_Request_Search</span>
+										<a href="#addField" title="details" class="method-name">addField</a>
+											(<span class="var-type">type</span>&nbsp;<span class="var-name">$field</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">\KoSolr_Server_Request_Search</span>
+										<a href="#addFilterQuery" title="details" class="method-name">addFilterQuery</a>
+											(<span class="var-type">type</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Constructor.png" alt=" "/>
+											<span class="method-result">KoSolr_Server_Request_Search</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">\KoSolr_Server_Request_Search</span>
+										<a href="#equals" title="details" class="method-name">equals</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$field</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>, [<span class="var-type">bool</span>&nbsp;<span class="var-name">$equal</span> = <span class="var-default">true</span>])
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">\KoSolr_Server_Request_Search</span>
+										<a href="#limit" title="details" class="method-name">limit</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$rows</span>, [<span class="var-type">int|null</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">null</span>])
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">\KoSolr_Server_Request_Search</span>
+										<a href="#offset" title="details" class="method-name">offset</a>
+											([<span class="var-type">int</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">500</span>])
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">\KoSolr_Server_Request_Search</span>
+										<a href="#order_by" title="details" class="method-name">order_by</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$field</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">\KoSolr_Server_Request_Search</span>
+										<a href="#query" title="details" class="method-name">query</a>
+											(<span class="var-type">type</span>&nbsp;<span class="var-name">$QueryString</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">\KoSolr_Server_Request_Search</span>
+										<a href="#select" title="details" class="method-name">select</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$fields</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$fileds</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">\KoSolr_Server_Request_Search</span>
+										<a href="#setDistance" title="details" class="method-name">setDistance</a>
+											(<span class="var-type">int|string</span>&nbsp;<span class="var-name">$distance</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">\KoSolr_Server_Request_Search</span>
+										<a href="#setFacet" title="details" class="method-name">setFacet</a>
+											(<span class="var-type">bool</span>&nbsp;<span class="var-name">$enable</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setFacetMinCount" title="details" class="method-name">setFacetMinCount</a>
+											(<span class="var-type">type</span>&nbsp;<span class="var-name">$min</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">\KoSolr_Server_Request_Search</span>
+										<a href="#setLocation" title="details" class="method-name">setLocation</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$Lat</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$Lon</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">\KoSolr_Server_Request_Search</span>
+										<a href="#setLocationField" title="details" class="method-name">setLocationField</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$field</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setQuery" title="details" class="method-name">setQuery</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$query</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setRows" title="details" class="method-name">setRows</a>
+											([<span class="var-type">int</span>&nbsp;<span class="var-name">$rows</span> = <span class="var-default">500</span>])
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">\KoSolr_Server_Request_Search</span>
+										<a href="#setSort" title="details" class="method-name">setSort</a>
+											(<span class="var-type">type</span>&nbsp;<span class="var-name">$sort_string</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setStart" title="details" class="method-name">setStart</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$start</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">\KoSolr_Server_Request_Search</span>
+										<a href="#where_reset" title="details" class="method-name">where_reset</a>
+											(<span class="var-type">string</span>&nbsp;<span class="var-name">$field</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$equal</span>)
+									</div>
+											</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+												<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			
+							<h4>Inherited Variables</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../default/KoSolr_Server_Request.html">KoSolr_Server_Request</a></span></p>
+					<blockquote>
+													<img src="../media/images/Variable.png" />
+							<span class="var-title">
+								<span class="var-name"><a href="../default/KoSolr_Server_Request.html#var$_requestContentType">KoSolr_Server_Request::$_requestContentType</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="var-title">
+								<span class="var-name"><a href="../default/KoSolr_Server_Request.html#var$_requestHandler">KoSolr_Server_Request::$_requestHandler</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="var-title">
+								<span class="var-name"><a href="../default/KoSolr_Server_Request.html#var$_request_data">KoSolr_Server_Request::$_request_data</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="var-title">
+								<span class="var-name"><a href="../default/KoSolr_Server_Request.html#var$_sendMethod">KoSolr_Server_Request::$_sendMethod</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="var-title">
+								<span class="var-name"><a href="../default/KoSolr_Server_Request.html#var$_timeout">KoSolr_Server_Request::$_timeout</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+															<a href="#sec-vars">Vars</a>
+																			<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+										<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodaddFacetField" id="addFacetField"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">addFacetField</span> (line <span class="line-number">261</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">setting the</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="http://wiki.apache.org/solr/SimpleFacetParameters">http://wiki.apache.org/solr/SimpleFacetParameters</a></li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">\KoSolr_Server_Request_Search</span>
+		<span class="method-name">
+			addFacetField
+		</span>
+					(<span class="var-type">type</span>&nbsp;<span class="var-name">$field</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">type</span>
+				<span class="var-name">$field</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodaddField" id="addField"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">addField</span> (line <span class="line-number">215</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Adding field to select</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> KoSolr_Server_Request_Search::select</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">\KoSolr_Server_Request_Search</span>
+		<span class="method-name">
+			addField
+		</span>
+					(<span class="var-type">type</span>&nbsp;<span class="var-name">$field</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">type</span>
+				<span class="var-name">$field</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodaddFilterQuery" id="addFilterQuery"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">addFilterQuery</span> (line <span class="line-number">116</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">adding filter query</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">\KoSolr_Server_Request_Search</span>
+		<span class="method-name">
+			addFilterQuery
+		</span>
+					(<span class="var-type">type</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">type</span>
+				<span class="var-name">$value</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Constructor.png" />
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">32</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Constructor</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">KoSolr_Server_Request_Search</span>
+		<span class="method-name">
+			__construct
+		</span>
+				()
+			</div>
+	
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../default/KoSolr_Server_Request.html#method__construct">KoSolr_Server_Request::__construct()</a></dt>
+						<dd>Constructor</dd>
+					</dl>
+			
+	</div>
+<a name="methodequals" id="equals"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">equals</span> (line <span class="line-number">56</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">add to where syntext</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">\KoSolr_Server_Request_Search</span>
+		<span class="method-name">
+			equals
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$field</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>, [<span class="var-type">bool</span>&nbsp;<span class="var-name">$equal</span> = <span class="var-default">true</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$field</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span>			</li>
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$equal</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodlimit" id="limit"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">limit</span> (line <span class="line-number">153</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Used for pagination</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">\KoSolr_Server_Request_Search</span>
+		<span class="method-name">
+			limit
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$rows</span>, [<span class="var-type">int|null</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">null</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$rows</span>			</li>
+					<li>
+				<span class="var-type">int|null</span>
+				<span class="var-name">$offset</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodoffset" id="offset"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">offset</span> (line <span class="line-number">168</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">set maximum rows per request</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">\KoSolr_Server_Request_Search</span>
+		<span class="method-name">
+			offset
+		</span>
+					([<span class="var-type">int</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">500</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$offset</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodorder_by" id="order_by"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">order_by</span> (line <span class="line-number">142</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sort fields like 'price desc, name asc'</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> sort</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">\KoSolr_Server_Request_Search</span>
+		<span class="method-name">
+			order_by
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$field</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$field</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodquery" id="query"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">query</span> (line <span class="line-number">178</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set the query string</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">\KoSolr_Server_Request_Search</span>
+		<span class="method-name">
+			query
+		</span>
+					(<span class="var-type">type</span>&nbsp;<span class="var-name">$QueryString</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">type</span>
+				<span class="var-name">$QueryString</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodselect" id="select"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">select</span> (line <span class="line-number">44</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Select like in sql</p>
+<p class="description"><p>Selecting fields</p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> fl</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">\KoSolr_Server_Request_Search</span>
+		<span class="method-name">
+			select
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$fields</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$fileds</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$fileds</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$fields</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetDistance" id="setDistance"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">setDistance</span> (line <span class="line-number">95</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Setting distance</p>
+<p class="description"><p>Must use set location</p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> \KoSolr_Server_Request_Search::setLocation($Lat, $Lon)</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">\KoSolr_Server_Request_Search</span>
+		<span class="method-name">
+			setDistance
+		</span>
+					(<span class="var-type">int|string</span>&nbsp;<span class="var-name">$distance</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int|string</span>
+				<span class="var-name">$distance</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetFacet" id="setFacet"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">setFacet</span> (line <span class="line-number">246</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Enable/disables facets</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">\KoSolr_Server_Request_Search</span>
+		<span class="method-name">
+			setFacet
+		</span>
+					(<span class="var-type">bool</span>&nbsp;<span class="var-name">$enable</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">bool</span>
+				<span class="var-name">$enable</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetFacetMinCount" id="setFacetMinCount"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">setFacetMinCount</span> (line <span class="line-number">271</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Setting the minimum count</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="http://wiki.apache.org/solr/SimpleFacetParameters">http://wiki.apache.org/solr/SimpleFacetParameters</a></li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setFacetMinCount
+		</span>
+					(<span class="var-type">type</span>&nbsp;<span class="var-name">$min</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">type</span>
+				<span class="var-name">$min</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetLocation" id="setLocation"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">setLocation</span> (line <span class="line-number">70</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Must to define sfield and distance</p>
+<p class="description"><p>Like : dq={!geofilt}&amp;sfield=store&amp;pt=45.15,-93.85&amp;d=5</p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="http://wiki.apache.org/solr/SpatialSearch">http://wiki.apache.org/solr/SpatialSearch</a></li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">\KoSolr_Server_Request_Search</span>
+		<span class="method-name">
+			setLocation
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$Lat</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$Lon</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$Lat</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$Lon</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetLocationField" id="setLocationField"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">setLocationField</span> (line <span class="line-number">105</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set location field</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">\KoSolr_Server_Request_Search</span>
+		<span class="method-name">
+			setLocationField
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$field</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$field</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetQuery" id="setQuery"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">setQuery</span> (line <span class="line-number">187</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Setting query string</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setQuery
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$query</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$query</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetRows" id="setRows"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">setRows</span> (line <span class="line-number">205</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set start rows like in mysql limit</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> rows</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setRows
+		</span>
+					([<span class="var-type">int</span>&nbsp;<span class="var-name">$rows</span> = <span class="var-default">500</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$rows</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetSort" id="setSort"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">setSort</span> (line <span class="line-number">237</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Setting sort</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> KoSolr_Server_Request_Search::order_by</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">\KoSolr_Server_Request_Search</span>
+		<span class="method-name">
+			setSort
+		</span>
+					(<span class="var-type">type</span>&nbsp;<span class="var-name">$sort_string</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">type</span>
+				<span class="var-name">$sort_string</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetStart" id="setStart"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">setStart</span> (line <span class="line-number">196</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set start rows like in mysql</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> start</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setStart
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$start</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$start</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodwhere_reset" id="where_reset"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">where_reset</span> (line <span class="line-number">131</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">create where syntext (Resets the query)</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">\KoSolr_Server_Request_Search</span>
+		<span class="method-name">
+			where_reset
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$field</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$value</span>, <span class="var-type">boolean</span>&nbsp;<span class="var-name">$equal</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$field</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$value</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$equal</span>			</li>
+				</ul>
+		
+			
+	</div>
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../default/KoSolr_Server_Request.html">KoSolr_Server_Request</a></span></p>
+					<blockquote>
+													<img src="../media/images/Constructor.png" alt=" "/>
+							<span class="method-name"><a href="../default/KoSolr_Server_Request.html#method__construct">KoSolr_Server_Request::__construct()</a></span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name"><a href="../default/KoSolr_Server_Request.html#methodgetContentRaw">KoSolr_Server_Request::getContentRaw()</a></span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name"><a href="../default/KoSolr_Server_Request.html#methodgetDataArray">KoSolr_Server_Request::getDataArray()</a></span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name"><a href="../default/KoSolr_Server_Request.html#methodgetRequestContentType">KoSolr_Server_Request::getRequestContentType()</a></span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name"><a href="../default/KoSolr_Server_Request.html#methodgetRequestHandler">KoSolr_Server_Request::getRequestHandler()</a></span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name"><a href="../default/KoSolr_Server_Request.html#methodgetReturnType">KoSolr_Server_Request::getReturnType()</a></span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name"><a href="../default/KoSolr_Server_Request.html#methodgetSendMethod">KoSolr_Server_Request::getSendMethod()</a></span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name"><a href="../default/KoSolr_Server_Request.html#methodgetTimeout">KoSolr_Server_Request::getTimeout()</a></span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name"><a href="../default/KoSolr_Server_Request.html#methodsetRequestContentType">KoSolr_Server_Request::setRequestContentType()</a></span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name"><a href="../default/KoSolr_Server_Request.html#methodsetRequestHandler">KoSolr_Server_Request::setRequestHandler()</a></span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name"><a href="../default/KoSolr_Server_Request.html#methodsetReturnType">KoSolr_Server_Request::setReturnType()</a></span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name"><a href="../default/KoSolr_Server_Request.html#methodsetSendMethod">KoSolr_Server_Request::setSendMethod()</a></span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name"><a href="../default/KoSolr_Server_Request.html#methodsetTimeout">KoSolr_Server_Request::setTimeout()</a></span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name"><a href="../default/KoSolr_Server_Request.html#method__get">KoSolr_Server_Request::__get()</a></span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name"><a href="../default/KoSolr_Server_Request.html#method__isset">KoSolr_Server_Request::__isset()</a></span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name"><a href="../default/KoSolr_Server_Request.html#method__set">KoSolr_Server_Request::__set()</a></span><br>
+													<img src="../media/images/Method.png" alt=" "/>
+							<span class="method-name"><a href="../default/KoSolr_Server_Request.html#method__unset">KoSolr_Server_Request::__unset()</a></span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+	<a name="sec-consts"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constants</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendants</a> |
+										<a href="#sec-var-summary">Constants</a> (<span class="disabled">details</span>)
+						
+			
+												<a href="#sec-vars">Vars</a>
+														| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="constDEFAULT_LOCATION_DISTANCE" id="DEFAULT_LOCATION_DISTANCE"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">DEFAULT_LOCATION_DISTANCE</span>
+			 = <span class="const-default"> 160</span>
+			(line <span class="line-number">22</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Setting default distance to filter</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> KoSolr_Server_Request_Search::setLocation($Lat, $Lon)</li>
+			</ul>
+	
+	
+</div>
+<a name="constDEFAULT_LOCATION_FIELD" id="DEFAULT_LOCATION_FIELD"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">DEFAULT_LOCATION_FIELD</span>
+			 = <span class="const-default"> 'location'</span>
+			(line <span class="line-number">17</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Setting default location field for distnace filter</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> KoSolr_Server_Request_Search::setLocation($Lat, $Lon)</li>
+			</ul>
+	
+	
+</div>
+							<h4>Inherited Constants</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../default/KoSolr_Server_Request.html">KoSolr_Server_Request</a></span></p>
+					<blockquote>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../default/KoSolr_Server_Request.html#constCOMMAND_ADD">KoSolr_Server_Request::COMMAND_ADD</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../default/KoSolr_Server_Request.html#constCOMMAND_COMMIT">KoSolr_Server_Request::COMMAND_COMMIT</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../default/KoSolr_Server_Request.html#constCOMMAND_DELETE">KoSolr_Server_Request::COMMAND_DELETE</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../default/KoSolr_Server_Request.html#constCOMMAND_OPTIMIZE">KoSolr_Server_Request::COMMAND_OPTIMIZE</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../default/KoSolr_Server_Request.html#constCONTENT_TYPE_JSON">KoSolr_Server_Request::CONTENT_TYPE_JSON</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../default/KoSolr_Server_Request.html#constCONTENT_TYPE_XML_UTF">KoSolr_Server_Request::CONTENT_TYPE_XML_UTF</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../default/KoSolr_Server_Request.html#constCONTENT_TYPE_X_WWW_FORM_URLENCODED">KoSolr_Server_Request::CONTENT_TYPE_X_WWW_FORM_URLENCODED</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../default/KoSolr_Server_Request.html#constRETURN_TYPE_PHPS">KoSolr_Server_Request::RETURN_TYPE_PHPS</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../default/KoSolr_Server_Request.html#constSEND_METHOD_GET">KoSolr_Server_Request::SEND_METHOD_GET</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../default/KoSolr_Server_Request.html#constSEND_METHOD_POST">KoSolr_Server_Request::SEND_METHOD_POST</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../default/KoSolr_Server_Request.html#constSOLR_REQUEST_HANDLER_ADMIN">KoSolr_Server_Request::SOLR_REQUEST_HANDLER_ADMIN</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../default/KoSolr_Server_Request.html#constSOLR_REQUEST_HANDLER_ADMIN_CORES">KoSolr_Server_Request::SOLR_REQUEST_HANDLER_ADMIN_CORES</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../default/KoSolr_Server_Request.html#constSOLR_REQUEST_HANDLER_SELECT">KoSolr_Server_Request::SOLR_REQUEST_HANDLER_SELECT</a></span><br>
+							</span>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../default/KoSolr_Server_Request.html#constSOLR_REQUEST_HANDLER_UPDATE_JSON">KoSolr_Server_Request::SOLR_REQUEST_HANDLER_UPDATE_JSON</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+	
+	<p class="notes" id="credit">
+		Documentation generated on Tue, 13 Mar 2012 15:09:24 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.4</a>
+	</p>
+	</div></body>
+</html>
