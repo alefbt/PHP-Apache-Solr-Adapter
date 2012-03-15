@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos  -->
+			<title>Docs For Class KoSolr_Server_Request</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+						<script src="../media/lib/classTree.js"></script>
+												<script language="javascript" type="text/javascript">
+				var imgPlus = new Image();
+				var imgMinus = new Image();
+				imgPlus.src = "../media/images/plus.png";
+				imgMinus.src = "../media/images/minus.png";
+				
+				function showNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgMinus.src;
+					oTable.style.display = "block";
+				}
+				
+				function hideNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgPlus.src;
+					oTable.style.display = "none";
+				}
+				
+				function nodeIsVisible(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+									break;
+							}
+					return (oTable && oTable.style.display == "block");
+				}
+				
+				function toggleNodeVisibility(Node){
+					if (nodeIsVisible(Node)){
+						hideNode(Node);
+					}else{
+						showNode(Node);
+					}
+				}
+			</script>
+					</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name"><img src="../media/images/Class_logo.png"
+														alt=" Class"
+														title=" Class"
+														style="vertical-align: middle"> KoSolr_Server_Request</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+							<a href="#sec-descendents">Descendents</a>
+			|											<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+											<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+						
+			</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">B.S.D.</p>
+<p class="description"><p>Created by Yehuda-Daniel Korotkin  Date: 3/4/12  Time: 4:11 PM</p></p>
+		<p class="notes">
+			Located in <a class="field" href="_root_folder---classes---kosolr---server---request.php.html">/root_folder/classes/kosolr/server/request.php</a> (line <span class="field">9</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+	<a name="sec-descendents"></a>
+	<div class="info-box">
+		<div class="info-box-title">Direct descendents</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+			<span class="disabled">Descendents</span>
+			|												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+								|															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+															<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<table cellpadding="2" cellspacing="0" class="class-table">
+				<tr>
+					<th class="class-table-header">Class</th>
+					<th class="class-table-header">Description</th>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em; white-space: nowrap">
+						<img src="../media/images/Class.png"
+								 alt=" class"
+								 title=" class"
+								 style="vertical-align: center"/>
+						<a href="../default/KoSolr_Server_Request_Search.html">KoSolr_Server_Request_Search</a>
+					</td>
+					<td>
+											B.S.D.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em; white-space: nowrap">
+						<img src="../media/images/Class.png"
+								 alt=" class"
+								 title=" class"
+								 style="vertical-align: center"/>
+						<a href="../default/KoSolr_Server_Request_UpdateJson.html">KoSolr_Server_Request_UpdateJson</a>
+					</td>
+					<td>
+											B.S.D.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em; white-space: nowrap">
+						<img src="../media/images/Class.png"
+								 alt=" class"
+								 title=" class"
+								 style="vertical-align: center"/>
+						<a href="../default/KoSolr_Server_Request_Admin.html">KoSolr_Server_Request_Admin</a>
+					</td>
+					<td>
+											B.S.D.
+										</td>
+				</tr>
+							</table>
+		</div>
+	</div>
+
+	<a name="sec-const-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constant Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendants</a> |
+						<span class="disabled">Constants</span> (<a href="#sec-consts">details</a>)
+												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<div class="const-summary">
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#COMMAND_ADD" title="details" class="const-name">COMMAND_ADD</a> = 					<span class="var-type"> 'add'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#COMMAND_COMMIT" title="details" class="const-name">COMMAND_COMMIT</a> = 					<span class="var-type"> 'commit'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#COMMAND_DELETE" title="details" class="const-name">COMMAND_DELETE</a> = 					<span class="var-type"> 'delete'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#COMMAND_OPTIMIZE" title="details" class="const-name">COMMAND_OPTIMIZE</a> = 					<span class="var-type"> 'optimize'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#CONTENT_TYPE_JSON" title="details" class="const-name">CONTENT_TYPE_JSON</a> = 					<span class="var-type"> 'application/json'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#CONTENT_TYPE_XML_UTF" title="details" class="const-name">CONTENT_TYPE_XML_UTF</a> = 					<span class="var-type"> 'text/xml; charset=UTF-8'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#CONTENT_TYPE_X_WWW_FORM_URLENCODED" title="details" class="const-name">CONTENT_TYPE_X_WWW_FORM_URLENCODED</a> = 					<span class="var-type"> 'application/x-www-form-urlencoded'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#RETURN_TYPE_PHPS" title="details" class="const-name">RETURN_TYPE_PHPS</a> = 					<span class="var-type">'phps'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#SEND_METHOD_GET" title="details" class="const-name">SEND_METHOD_GET</a> = 					<span class="var-type">'GET'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#SEND_METHOD_POST" title="details" class="const-name">SEND_METHOD_POST</a> = 					<span class="var-type">'POST'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#SOLR_REQUEST_HANDLER_ADMIN" title="details" class="const-name">SOLR_REQUEST_HANDLER_ADMIN</a> = 					<span class="var-type">'/admin/'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#SOLR_REQUEST_HANDLER_ADMIN_CORES" title="details" class="const-name">SOLR_REQUEST_HANDLER_ADMIN_CORES</a> = 					<span class="var-type">'/admin/cores'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#SOLR_REQUEST_HANDLER_SELECT" title="details" class="const-name">SOLR_REQUEST_HANDLER_SELECT</a> = 					<span class="var-type">'/select/'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#SOLR_REQUEST_HANDLER_UPDATE_JSON" title="details" class="const-name">SOLR_REQUEST_HANDLER_UPDATE_JSON</a> = 					<span class="var-type">'/update/json'</span>
+
+				</div>
+							</div>
+		</div>
+	</div>
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendants</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+															<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																																																								<div class="var-title">
+					<img src="../media/images/Variable.png" alt=" " />
+					<span class="var-type">string</span>
+					<a href="#$_requestContentType" title="details" class="var-name">$_requestContentType</a>
+				</div>
+																<div class="var-title">
+					<img src="../media/images/Variable.png" alt=" " />
+					<span class="var-type">string</span>
+					<a href="#$_requestHandler" title="details" class="var-name">$_requestHandler</a>
+				</div>
+																<div class="var-title">
+					<img src="../media/images/Variable.png" alt=" " />
+					<span class="var-type">array</span>
+					<a href="#$_request_data" title="details" class="var-name">$_request_data</a>
+				</div>
+																<div class="var-title">
+					<img src="../media/images/Variable.png" alt=" " />
+					<span class="var-type">string</span>
+					<a href="#$_sendMethod" title="details" class="var-name">$_sendMethod</a>
+				</div>
+																<div class="var-title">
+					<img src="../media/images/Variable.png" alt=" " />
+					<span class="var-type">int</span>
+					<a href="#$_timeout" title="details" class="var-name">$_timeout</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendants</a> |
+															<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																																																																																							
+				<div class="method-definition">
+					<img src="../media/images/Constructor.png" alt=" "/>
+											<span class="method-result">KoSolr_Server_Request</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">array</span>
+										<a href="#getContentRaw" title="details" class="method-name">getContentRaw</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">array</span>
+										<a href="#getDataArray" title="details" class="method-name">getDataArray</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">string</span>
+										<a href="#getRequestContentType" title="details" class="method-name">getRequestContentType</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">string</span>
+										<a href="#getRequestHandler" title="details" class="method-name">getRequestHandler</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">string</span>
+										<a href="#getReturnType" title="details" class="method-name">getReturnType</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">string</span>
+										<a href="#getSendMethod" title="details" class="method-name">getSendMethod</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">int</span>
+										<a href="#getTimeout" title="details" class="method-name">getTimeout</a>
+										()
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setRequestContentType" title="details" class="method-name">setRequestContentType</a>
+											([<span class="var-type">$content_type</span>&nbsp;<span class="var-name">$content_type</span> = <span class="var-default">CONTENT_TYPE_X_WWW_FORM_URLENCODED</span>])
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setRequestHandler" title="details" class="method-name">setRequestHandler</a>
+											([<span class="var-type"></span>&nbsp;<span class="var-name">$requestHandler</span> = <span class="var-default">KoSolr_Server_Request::SOLR_REQUEST_HANDLER_SELECT</span>], <span class="var-type">string</span>&nbsp;<span class="var-name">$command</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result"><a href="../default/KoSolr_Server_Request.html">KoSolr_Server_Request</a></span>
+										<a href="#setReturnType" title="details" class="method-name">setReturnType</a>
+											([<span class="var-type">string</span>&nbsp;<span class="var-name">$return_type</span> = <span class="var-default">KoSolr_Server_Request::RETURN_TYPE_PHPS</span>])
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setSendMethod" title="details" class="method-name">setSendMethod</a>
+											([<span class="var-type">string</span>&nbsp;<span class="var-name">$method</span> = <span class="var-default">KoSolr_Server_Request::SEND_METHOD_POST</span>])
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setTimeout" title="details" class="method-name">setTimeout</a>
+											(<span class="var-type">$timeout</span>&nbsp;<span class="var-name">$timeout</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">mixed</span>
+										<a href="#__get" title="details" class="method-name">__get</a>
+											(<span class="var-type">$name</span>&nbsp;<span class="var-name">$name</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">bool</span>
+										<a href="#__isset" title="details" class="method-name">__isset</a>
+											(<span class="var-type">$name</span>&nbsp;<span class="var-name">$name</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#__set" title="details" class="method-name">__set</a>
+											(<span class="var-type">$name</span>&nbsp;<span class="var-name">$name</span>, <span class="var-type">$value</span>&nbsp;<span class="var-name">$value</span>)
+									</div>
+															
+				<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#__unset" title="details" class="method-name">__unset</a>
+											(<span class="var-type">$name</span>&nbsp;<span class="var-name">$name</span>)
+									</div>
+											</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+												<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			
+<a name="var$_requestContentType" id="$_requestContentType"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<img src="../media/images/Variable.png" />
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$_requestContentType</span>
+			 = <span class="var-default"> KoSolr_Server_Request::CONTENT_TYPE_X_WWW_FORM_URLENCODED</span>			(line <span class="line-number">125</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Content send type</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../default/KoSolr_Server_Request_UpdateJson.html#var$_requestContentType">KoSolr_Server_Request_UpdateJson::$_requestContentType</a>
+								: Content type
+							</li>
+				</ul>
+		
+
+</div>
+<a name="var$_requestHandler" id="$_requestHandler"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<img src="../media/images/Variable.png" />
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$_requestHandler</span>
+			 = <span class="var-default"> KoSolr_Server_Request::SOLR_REQUEST_HANDLER_SELECT</span>			(line <span class="line-number">108</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Command on solr</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../default/KoSolr_Server_Request_UpdateJson.html#var$_requestHandler">KoSolr_Server_Request_UpdateJson::$_requestHandler</a>
+							</li>
+					<li>
+				<a href="../default/KoSolr_Server_Request_Admin.html#var$_requestHandler">KoSolr_Server_Request_Admin::$_requestHandler</a>
+								: Command on solr
+							</li>
+					<li>
+				<a href="../default/KoSolr_Server_Request_Admin_Cores.html#var$_requestHandler">KoSolr_Server_Request_Admin_Cores::$_requestHandler</a>
+								: Command on solr
+							</li>
+				</ul>
+		
+
+</div>
+<a name="var$_request_data" id="$_request_data"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<img src="../media/images/Variable.png" />
+		<span class="var-title">
+			<span class="var-type">array</span>
+			<span class="var-name">$_request_data</span>
+			 = <span class="var-default">array(<br />        'wt'=&gt;KoSolr_Server_Request::RETURN_TYPE_PHPS,<br />        'rows'=&gt;'500',<br />        'start'=&gt;'0',<br />        'q'=&gt;'*:*'<br />    )</span>			(line <span class="line-number">38</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">all request data</p>
+<p class="description"><p>default values</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../default/KoSolr_Server_Request_Admin.html#var$_request_data">KoSolr_Server_Request_Admin::$_request_data</a>
+								: all request data
+							</li>
+				</ul>
+		
+
+</div>
+<a name="var$_sendMethod" id="$_sendMethod"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<img src="../media/images/Variable.png" />
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$_sendMethod</span>
+			 = <span class="var-default"> KoSolr_Server_Request::SEND_METHOD_POST</span>			(line <span class="line-number">171</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Send method</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../default/KoSolr_Server_Request_Admin_Cores.html#var$_sendMethod">KoSolr_Server_Request_Admin_Cores::$_sendMethod</a>
+								: Send method
+							</li>
+				</ul>
+		
+
+</div>
+<a name="var$_timeout" id="$_timeout"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<img src="../media/images/Variable.png" />
+		<span class="var-title">
+			<span class="var-type">int</span>
+			<span class="var-name">$_timeout</span>
+			 = <span class="var-default"> 60</span>			(line <span class="line-number">154</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">timeout</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> protected</li>
+			</ul>
+	
+	
+		
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../default/KoSolr_Server_Request_UpdateJson.html#var$_timeout">KoSolr_Server_Request_UpdateJson::$_timeout</a>
+								: Timeout settings
+							</li>
+					<li>
+				<a href="../default/KoSolr_Server_Request_Admin.html#var$_timeout">KoSolr_Server_Request_Admin::$_timeout</a>
+								: Timeout settings
+							</li>
+				</ul>
+		
+
+</div>
+						
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendents</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+																			<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+										<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Constructor.png" />
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">96</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Constructor</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">KoSolr_Server_Request</span>
+		<span class="method-name">
+			__construct
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../default/KoSolr_Server_Request_Search.html#method__construct">KoSolr_Server_Request_Search::__construct()</a>
+								: Constructor
+							</li>
+					<li>
+				<a href="../default/KoSolr_Server_Request_UpdateJson.html#method__construct">KoSolr_Server_Request_UpdateJson::__construct()</a>
+							</li>
+					<li>
+				<a href="../default/KoSolr_Server_Request_Admin.html#method__construct">KoSolr_Server_Request_Admin::__construct()</a>
+								: Admin instance
+							</li>
+					<li>
+				<a href="../default/KoSolr_Server_Request_Admin_Cores.html#method__construct">KoSolr_Server_Request_Admin_Cores::__construct()</a>
+								: Constactor
+							</li>
+				</ul>
+	</div>
+<a name="methodgetContentRaw" id="getContentRaw"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">getContentRaw</span> (line <span class="line-number">89</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getContentRaw
+		</span>
+				()
+			</div>
+	
+		
+			
+			<hr class="separator" />
+		<div class="notes">Redefined in descendants as:</div>
+		<ul class="redefinitions">
+					<li>
+				<a href="../default/KoSolr_Server_Request_UpdateJson.html#methodgetContentRaw">KoSolr_Server_Request_UpdateJson::getContentRaw()</a>
+							</li>
+				</ul>
+	</div>
+<a name="methodgetDataArray" id="getDataArray"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">getDataArray</span> (line <span class="line-number">83</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getDataArray
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetRequestContentType" id="getRequestContentType"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">getRequestContentType</span> (line <span class="line-number">129</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getRequestContentType
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetRequestHandler" id="getRequestHandler"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">getRequestHandler</span> (line <span class="line-number">119</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Getter of command</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getRequestHandler
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetReturnType" id="getReturnType"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">getReturnType</span> (line <span class="line-number">141</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Return type see const RETURN_TYPE_*</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getReturnType
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetSendMethod" id="getSendMethod"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">getSendMethod</span> (line <span class="line-number">176</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sending method</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getSendMethod
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetTimeout" id="getTimeout"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">getTimeout</span> (line <span class="line-number">159</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Get request timeout</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">int</span>
+		<span class="method-name">
+			getTimeout
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodsetRequestContentType" id="setRequestContentType"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">setRequestContentType</span> (line <span class="line-number">135</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Content type</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setRequestContentType
+		</span>
+					([<span class="var-type">$content_type</span>&nbsp;<span class="var-name">$content_type</span> = <span class="var-default">CONTENT_TYPE_X_WWW_FORM_URLENCODED</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$content_type</span>
+				<span class="var-name">$content_type</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetRequestHandler" id="setRequestHandler"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">setRequestHandler</span> (line <span class="line-number">113</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">command to execute</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setRequestHandler
+		</span>
+					([<span class="var-type"></span>&nbsp;<span class="var-name">$requestHandler</span> = <span class="var-default">KoSolr_Server_Request::SOLR_REQUEST_HANDLER_SELECT</span>], <span class="var-type">string</span>&nbsp;<span class="var-name">$command</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$command</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$requestHandler</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetReturnType" id="setReturnType"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">setReturnType</span> (line <span class="line-number">148</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set return type</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a href="../default/KoSolr_Server_Request.html">KoSolr_Server_Request</a></span>
+		<span class="method-name">
+			setReturnType
+		</span>
+					([<span class="var-type">string</span>&nbsp;<span class="var-name">$return_type</span> = <span class="var-default">KoSolr_Server_Request::RETURN_TYPE_PHPS</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$return_type</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetSendMethod" id="setSendMethod"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">setSendMethod</span> (line <span class="line-number">182</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setSendMethod
+		</span>
+					([<span class="var-type">string</span>&nbsp;<span class="var-name">$method</span> = <span class="var-default">KoSolr_Server_Request::SEND_METHOD_POST</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$method</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetTimeout" id="setTimeout"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">setTimeout</span> (line <span class="line-number">165</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">set timeout</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setTimeout
+		</span>
+					(<span class="var-type">$timeout</span>&nbsp;<span class="var-name">$timeout</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$timeout</span>
+				<span class="var-name">$timeout</span><span class="var-description">: int</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method__get" id="__get"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">__get</span> (line <span class="line-number">49</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Magic Getter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">mixed</span>
+		<span class="method-name">
+			__get
+		</span>
+					(<span class="var-type">$name</span>&nbsp;<span class="var-name">$name</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$name</span>
+				<span class="var-name">$name</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method__isset" id="__isset"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">__isset</span> (line <span class="line-number">69</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">bool</span>
+		<span class="method-name">
+			__isset
+		</span>
+					(<span class="var-type">$name</span>&nbsp;<span class="var-name">$name</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$name</span>
+				<span class="var-name">$name</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method__set" id="__set"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">__set</span> (line <span class="line-number">61</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Magic Setter</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			__set
+		</span>
+					(<span class="var-type">$name</span>&nbsp;<span class="var-name">$name</span>, <span class="var-type">$value</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$name</span>
+				<span class="var-name">$name</span>			</li>
+					<li>
+				<span class="var-type">$value</span>
+				<span class="var-name">$value</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method__unset" id="__unset"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">__unset</span> (line <span class="line-number">76</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			__unset
+		</span>
+					(<span class="var-type">$name</span>&nbsp;<span class="var-name">$name</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$name</span>
+				<span class="var-name">$name</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+	<a name="sec-consts"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constants</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-descendents">Descendants</a> |
+										<a href="#sec-var-summary">Constants</a> (<span class="disabled">details</span>)
+						
+			
+												<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+														| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="constCOMMAND_ADD" id="COMMAND_ADD"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">COMMAND_ADD</span>
+			 = <span class="const-default"> 'add'</span>
+			(line <span class="line-number">25</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constCOMMAND_COMMIT" id="COMMAND_COMMIT"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">COMMAND_COMMIT</span>
+			 = <span class="const-default"> 'commit'</span>
+			(line <span class="line-number">22</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constCOMMAND_DELETE" id="COMMAND_DELETE"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">COMMAND_DELETE</span>
+			 = <span class="const-default"> 'delete'</span>
+			(line <span class="line-number">24</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constCOMMAND_OPTIMIZE" id="COMMAND_OPTIMIZE"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">COMMAND_OPTIMIZE</span>
+			 = <span class="const-default"> 'optimize'</span>
+			(line <span class="line-number">23</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constCONTENT_TYPE_JSON" id="CONTENT_TYPE_JSON"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">CONTENT_TYPE_JSON</span>
+			 = <span class="const-default"> 'application/json'</span>
+			(line <span class="line-number">28</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constCONTENT_TYPE_XML_UTF" id="CONTENT_TYPE_XML_UTF"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">CONTENT_TYPE_XML_UTF</span>
+			 = <span class="const-default"> 'text/xml; charset=UTF-8'</span>
+			(line <span class="line-number">29</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constCONTENT_TYPE_X_WWW_FORM_URLENCODED" id="CONTENT_TYPE_X_WWW_FORM_URLENCODED"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">CONTENT_TYPE_X_WWW_FORM_URLENCODED</span>
+			 = <span class="const-default"> 'application/x-www-form-urlencoded'</span>
+			(line <span class="line-number">27</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constRETURN_TYPE_PHPS" id="RETURN_TYPE_PHPS"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">RETURN_TYPE_PHPS</span>
+			 = <span class="const-default">'phps'</span>
+			(line <span class="line-number">16</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Solr method to return the data</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> KoSolr_Server_Response_Phps class names must match</li>
+				<li><span class="field">see:</span> solr wt param</li>
+			</ul>
+	
+	
+</div>
+<a name="constSEND_METHOD_GET" id="SEND_METHOD_GET"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">SEND_METHOD_GET</span>
+			 = <span class="const-default">'GET'</span>
+			(line <span class="line-number">32</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constSEND_METHOD_POST" id="SEND_METHOD_POST"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">SEND_METHOD_POST</span>
+			 = <span class="const-default">'POST'</span>
+			(line <span class="line-number">31</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constSOLR_REQUEST_HANDLER_ADMIN" id="SOLR_REQUEST_HANDLER_ADMIN"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">SOLR_REQUEST_HANDLER_ADMIN</span>
+			 = <span class="const-default">'/admin/'</span>
+			(line <span class="line-number">20</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constSOLR_REQUEST_HANDLER_ADMIN_CORES" id="SOLR_REQUEST_HANDLER_ADMIN_CORES"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">SOLR_REQUEST_HANDLER_ADMIN_CORES</span>
+			 = <span class="const-default">'/admin/cores'</span>
+			(line <span class="line-number">21</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constSOLR_REQUEST_HANDLER_SELECT" id="SOLR_REQUEST_HANDLER_SELECT"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">SOLR_REQUEST_HANDLER_SELECT</span>
+			 = <span class="const-default">'/select/'</span>
+			(line <span class="line-number">18</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+<a name="constSOLR_REQUEST_HANDLER_UPDATE_JSON" id="SOLR_REQUEST_HANDLER_UPDATE_JSON"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">SOLR_REQUEST_HANDLER_UPDATE_JSON</span>
+			 = <span class="const-default">'/update/json'</span>
+			(line <span class="line-number">19</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+</div>
+						
+		</div>
+	</div>
+	
+	<p class="notes" id="credit">
+		Documentation generated on Tue, 13 Mar 2012 15:09:24 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.4</a>
+	</p>
+	</div></body>
+</html>
