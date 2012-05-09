@@ -9,7 +9,7 @@
 class KoSolr_Document
 {
 
-    private $_data=array();
+    private $_data = array();
 
     /**
      * Magic Getter
@@ -18,8 +18,7 @@ class KoSolr_Document
      */
     public function __get($name)
     {
-        if (array_key_exists($name, $this->_data))
-        {
+        if (array_key_exists($name, $this->_data)) {
             return $this->_data[$name];
         }
     }
@@ -62,6 +61,8 @@ class KoSolr_Document
     public function setField($name, $value)
     {
        $this->__set($name, $value);
+
+       return $this;
     }
     /**
      * Set multiple value always addes
@@ -70,15 +71,17 @@ class KoSolr_Document
      */
     public function setMultiValue($name, $value)
     {
-        if(!$this->__isset($name))
-            $this->setField($name, $value);
-        
-        if(!is_array($this->_data[$name]))
-        {
-            $old = $this->__get($name);
-            $this->setField($name, array($value));
+        if (!$this->__isset($name)) {
+            $this->setField($name, !is_array($value) ? array($value) : $value);
+            return $this;
         }
-        
+
+        if (!is_array($this->_data[$name])) {
+            $this->__set($name, array($this->_data[$name]));
+        }
+
         $this->_data[$name][] = $value;
+
+        return $this;
     }
 }
